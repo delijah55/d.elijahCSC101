@@ -12,9 +12,9 @@ fn main()
    io::stdin().read_line(&mut input2).expect("Not a valid string");
    let age:i32 = input2.trim().parse().expect("Not a valid number");
 
-   if age >= 18{
+   if age >= 18 {
       println!("Welcome to the party {}!", input1);
-    }else {
+    } else {
          println!("Oops, you are not of age to attend this party {}", input1);
     }
 }
